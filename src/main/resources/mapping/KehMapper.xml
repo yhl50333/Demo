@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.KehMapper">
+
+
+
+    <resultMap id="BaseResultMap" type="com.example.entity.Keh">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="costom" jdbcType="VARCHAR" property="costom" />
+        <result column="moblie" jdbcType="VARCHAR" property="moblie" />
+        <result column="DB" jdbcType="VARCHAR" property="DB" />
+    </resultMap>
+
+    <select id="Sel" resultType="com.example.entity.Keh">
+        select * from Keh where id = #{id}
+    </select>
+
+</mapper>

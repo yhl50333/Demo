@@ -1,0 +1,32 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;Databasename=sys
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123456
+
+
+
+
+  jpa:
+    database: sql_server
+    database-platform: org.hibernate.dialect.SQLServer2008Dialect
+  resources:
+    static-locations: classpath:templates/,classpath:img/
+  mvc:
+    view:
+      prefix:
+      suffix: .html
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.example.entity
+
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
