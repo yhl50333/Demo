@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83fa6590-2d2c-4475-a483-8149691a5546" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/demo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/KehMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/myPage.html" afterDir="false" />
-    </list>
+    <list default="true" id="83fa6590-2d2c-4475-a483-8149691a5546" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,56 +117,6 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -282,7 +197,7 @@
       <updated>1577410265844</updated>
       <workItem from="1577410276686" duration="8549000" />
       <workItem from="1577423461027" duration="9415000" />
-      <workItem from="1577757945356" duration="1339000" />
+      <workItem from="1577757945356" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1577759034295</created>
@@ -298,11 +213,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577759187062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12">
+      <created>1577759382646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577759382646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19303000" />
+    <option name="totallyTimeSpent" value="19602000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -316,7 +238,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37034383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37034383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,13 +256,13 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.32489452" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143266" side_tool="true" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32859176" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49856734" visible="true" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
