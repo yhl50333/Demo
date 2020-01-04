@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class ManagerController {
     @RequestMapping("/addMainClassify")
     public String addMainClassify(@RequestParam (value="name")String name,@RequestParam(value = "info")String info){
-
+    System.out.println(name);
+    System.out.println(info);
     String c=null;
     return c;
     }

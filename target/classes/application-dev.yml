@@ -25,8 +25,12 @@ mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
   type-aliases-package: com.example.entity
 
+
+
 logging:
   level:
     com:
       example:
         mapper : debug
+mybatis-plus:
+  mapper-locations: classpath:mapping/*Mapper.xml
