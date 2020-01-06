@@ -15,7 +15,7 @@ spring:
     database: sql_server
     database-platform: org.hibernate.dialect.SQLServer2008Dialect
   resources:
-    static-locations: classpath:static/
+    static-locations: classpath:c,classpath:static
   mvc:
     view:
       prefix:
