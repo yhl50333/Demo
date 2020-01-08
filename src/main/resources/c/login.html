@@ -44,7 +44,7 @@
         <input type="password" id="passwordId" name="password" class="form-control" placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
-     
+
 
       <div class="row">
         <div class="col-xs-8">
@@ -88,14 +88,14 @@
 		 password:$("#passwordId").val(),
 		 isRememberMe:$("#rememberId").prop("checked"),
 	  }
-	  var url="user/doLogin.do";
+	  var url="/doLogin";
 	  console.log("params",params);
 	  $.post(url,params,function(result){
 		  if(result.state==1){
 			//跳转到indexUI对应的页面
 			location.href="doIndexUI.do?t="+Math.random();
 		  }else{
-			$(".login-box-msg").html(result.message); 
+			$(".login-box-msg").html(result.message);
 		  }
 		  return false;//防止刷新时重复提交
 	  });

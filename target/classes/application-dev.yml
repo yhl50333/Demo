@@ -9,8 +9,6 @@ spring:
     password: 123456
 
 
-
-
   jpa:
     database: sql_server
     database-platform: org.hibernate.dialect.SQLServer2008Dialect
@@ -20,10 +18,18 @@ spring:
     view:
       prefix:
       suffix: .html
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
 
-mybatis:
-  mapper-locations: classpath:mapping/*Mapper.xml
-  type-aliases-package: com.example.entity
+
+#mybatis:
+#  mapper-locations: classpath:mapping/*Mapper.xml
+#  type-aliases-package: com.example.entity
+
 
 
 
@@ -34,3 +40,6 @@ logging:
         mapper : debug
 mybatis-plus:
   mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.example.entity
+  configuration:
+    map-underscore-to-camel-case: true

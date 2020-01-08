@@ -1,10 +1,17 @@
 package com.example.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.HashSet;
+import java.util.Set;
+
+@Setter
+@Getter
 public class User {
-    private Integer user_id;
-    private String name;
+    private Integer uid;
     private String password;//密码
-    private String salt;//盐
-    private Integer state;//用户状态
-    private String createtime;//创建时间
+    private String username;
+    private Set<Role> roles=new HashSet<>();
+
 }
