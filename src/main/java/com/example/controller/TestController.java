@@ -38,7 +38,7 @@ public class TestController {
     @RequestMapping(value = "login" ,method = RequestMethod.GET)
     public  String login(@Param("username")String username, @Param("password")String password, HttpServletRequest request){
         request.getParameter("username");
-        return "login";
+            return "login";
     }
     @RequestMapping("doLogin")
     @ResponseBody
