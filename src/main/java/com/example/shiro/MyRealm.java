@@ -19,7 +19,7 @@ import java.util.Set;
 
 public class MyRealm extends AuthorizingRealm {
 
-    @Qualifier("userService")
+
     @Autowired
     UserService us;
 
