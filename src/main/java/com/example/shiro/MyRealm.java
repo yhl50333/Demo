@@ -18,7 +18,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class MyRealm extends AuthorizingRealm {
-
+    Boolean cachingEnabled=true;
 
     @Autowired
     UserService us;
