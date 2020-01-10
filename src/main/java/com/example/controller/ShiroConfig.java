@@ -39,7 +39,7 @@ public class ShiroConfig {
     public MyRealm myRealm(@Qualifier("credentialsMatcher") CredentialsMatcher credentialsMatcher) {
         MyRealm myRealm = new MyRealm();
         //给权限验证器配置上自定义的密码验证器
-        myRealm.setCredentialsMatcher(credentialsMatcher);
+        //myRealm.setCredentialsMatcher(credentialsMatcher);
         return myRealm;
     }
 
@@ -97,11 +97,11 @@ public class ShiroConfig {
         //注入自定义myRealm
         defaultWebSecurityManager.setRealm(myRealm);
         //注入自定义cacheManager
-        defaultWebSecurityManager.setCacheManager(cacheManager());
-        //注入记住我管理器
-        defaultWebSecurityManager.setRememberMeManager(rememberMeManager());
-        //注入自定义sessionManager
-        defaultWebSecurityManager.setSessionManager(sessionManager());
+//        defaultWebSecurityManager.setCacheManager(cacheManager());
+//        //注入记住我管理器
+//        defaultWebSecurityManager.setRememberMeManager(rememberMeManager());
+//        //注入自定义sessionManager
+//        defaultWebSecurityManager.setSessionManager(sessionManager());
 
 
         //自定义缓存实现，使用redis
@@ -116,7 +116,7 @@ public class ShiroConfig {
         ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         bean.setSecurityManager(securityManager);
         bean.setLoginUrl("/login");
-        bean.setSuccessUrl("/starter");
+        bean.setSuccessUrl("/index");
 
 
         Map<String, Filter> filterMap=new LinkedHashMap<String,Filter>();
@@ -177,6 +177,7 @@ public class ShiroConfig {
         defaultAdvisorAutoProxyCreator.setProxyTargetClass(true);
         return defaultAdvisorAutoProxyCreator;
     }
+
 
     @Bean
     public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(@Qualifier("securityManager") SecurityManager securityManager) {

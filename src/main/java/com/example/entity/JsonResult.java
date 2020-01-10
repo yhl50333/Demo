@@ -14,7 +14,7 @@ public class JsonResult implements Serializable {
     public JsonResult(String message) {
         this.message=message;
     }
-    public JsonResult(Object data) {
+    public JsonResult() {
         this.data=data;
     }
     public JsonResult(Throwable e) {

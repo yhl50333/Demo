@@ -1,362 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e3a1b5b-0fa1-44a1-b7f1-f5805faace5a" name="Default Changelist" comment="1">
+    <list default="true" id="7e3a1b5b-0fa1-44a1-b7f1-f5805faace5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/.bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/API.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/API.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/FAQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/NEWS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/NEWS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/PLUGINS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/PLUGINS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-5.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth-5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-eu-gdp-growth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-japan-gdp-growth.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-japan-gdp-growth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-usa-gdp-growth.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/data-usa-gdp-growth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/ajax/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/annotating/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/annotating/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-interacting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-interacting/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-multiple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-multiple/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/africa" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/africa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/antarctica" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/antarctica" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/asia" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/asia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/australasia" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/australasia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/backward" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/backward" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/etcetera" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/etcetera" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/europe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/europe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/factory" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/factory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/iso3166.tab" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/iso3166.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/leapseconds" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/leapseconds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/northamerica" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/northamerica" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/pacificnew" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/pacificnew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/solar87" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/solar87" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/solar88" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/solar88" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/solar89" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/solar89" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/southamerica" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/southamerica" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/systemv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/systemv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/yearistype.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/yearistype.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/zone.tab" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time-zones/tz/zone.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/axes-time/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/basic-options/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/basic-options/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/basic-usage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/basic-usage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/canvas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/canvas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/examples.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/examples.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/image/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/image/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/interacting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/interacting/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/navigate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/navigate/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/percentiles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/percentiles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/realtime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/realtime/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/resize/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/resize/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/selection/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/selection/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-errorbars/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-errorbars/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-pie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-pie/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-toggle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-toggle/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-types/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/series-types/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/shared/jquery-ui/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/shared/jquery-ui/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/stacking/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/stacking/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/symbols/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/symbols/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/threshold/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/threshold/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/tracking/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/tracking/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/visitors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/visitors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/zooming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/examples/zooming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/excanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/flot.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/flot.jquery.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.colorhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.colorhelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.crosshair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.errorbars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.fillbetween.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.navigate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.navigate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.selection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.symbol.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.threshold.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.threshold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.flot.time.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/Flot/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/.bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/install.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/install.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/pace.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/pace.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/pace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/pace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/pace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/pace.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/black/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/blue/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/green/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/orange/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/pink/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/purple/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/red/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/silver/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/white/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-barber-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-barber-shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-big-counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-big-counter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-bounce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-bounce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-atom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-atom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-circle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-radar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-radar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-center-simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-corner-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-corner-indicator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-fill-left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-fill-left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-flash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-flash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-flat-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-flat-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-loading-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-loading-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-mac-osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-mac-osx.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/PACE/themes/yellow/pace-theme-minimal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/.bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/AUTHORS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/external/sizzle/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/jsonp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/load.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/parseXML.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/parseXML.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/var/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/var/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/var/nonce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/var/nonce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/var/rquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/var/rquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/ajax/xhr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/attr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/attr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/classes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/prop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/prop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/val.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/attributes/val.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/callbacks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/DOMEval.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/DOMEval.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/access.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/access.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/nodeName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/nodeName.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/parseHTML.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/parseHTML.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/ready-no-deferred.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/ready-no-deferred.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/ready.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/ready.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/readyException.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/readyException.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/stripAndCollapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/stripAndCollapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/var/rsingleTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/core/var/rsingleTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/addGetHookIf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/addGetHookIf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/adjustCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/adjustCSS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/curCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/curCSS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/showHide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/showHide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/cssExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/cssExpand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/getStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/getStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/rmargin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/rmargin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/rnumnonpx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/swap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/css/var/swap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/Data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/var/acceptData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/var/acceptData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/var/dataPriv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/var/dataPriv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/var/dataUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/data/var/dataUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/deferred.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/deferred.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/deferred/exceptionHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/deferred/exceptionHook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/deprecated.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/deprecated.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/dimensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/dimensions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/effects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/effects/Tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/effects/Tween.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/effects/animatedSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/effects/animatedSelector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/alias.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/alias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/focusin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/focusin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/trigger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/event/trigger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/exports/amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/exports/amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/exports/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/exports/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/_evalUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/buildFragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/buildFragment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/getAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/getAll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/var/rtagName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/wrapMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/manipulation/wrapMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/offset.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/offset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/queue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/queue/delay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/queue/delay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/selector-native.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/selector-native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/selector-sizzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/selector-sizzle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/selector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/serialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/serialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/findFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/findFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/var/dir.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/var/dir.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/var/siblings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/traversing/var/siblings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/ObjectFunctionString.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/arr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/arr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/class2type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/class2type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/concat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/documentElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/documentElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/fnToString.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/fnToString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/getProto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/getProto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/hasOwn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/hasOwn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/indexOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/indexOf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/pnum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/pnum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/push.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/push.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/rcssNum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/rcssNum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/rnothtmlwhite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/slice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/toString.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/var/toString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/src/wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/c/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -366,37 +24,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="111">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3042#3054#0" expanded="true" />
+                <element signature="e#3297#3328#0" expanded="true" />
+                <element signature="e#3532#3544#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="228">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-87">
+              <caret line="63" column="75" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -407,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/c/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="137">
+              <caret line="95" column="38" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -416,67 +80,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2717">
-              <caret line="175" column="72" selection-start-line="175" selection-start-column="72" selection-end-line="175" selection-end-column="72" />
+            <state relative-caret-position="146">
+              <caret line="101" column="78" lean-forward="true" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-                <element signature="e#5720#5721#0" expanded="true" />
-                <element signature="e#5775#5776#0" expanded="true" />
+                <element signature="e#4037#4052#0" expanded="true" />
+                <element signature="e#4425#4441#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176966">
-              <caret line="9326" column="29" selection-start-line="9326" selection-start-column="21" selection-end-line="9326" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="402">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mapper/KehMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Message.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -490,36 +123,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>shiro</find>
-      <find>shiroFilterFactoryBean</find>
-      <find>mybatis-p</find>
-      <find>credentialsMatcher</find>
-      <find>myRealm</find>
-      <find>hashedCredentialsMatcher</find>
-      <find>UserMapper</find>
-      <find>getByName</find>
-      <find>securityManager</find>
-      <find>us</find>
-      <find>sql</find>
-      <find>Sign In</find>
-      <find>&quot;col-xs-4</find>
+      <find>system.out.println(4)</find>
+      <find>getAuthenticationInfo</find>
+      <find>P</find>
+      <find>logout</find>
+      <find>10</find>
+      <find>System.out.println(7);</find>
+      <find>System.out.println(1);</find>
+      <find>System.out.println(4);</find>
       <find>get</find>
-      <find>method: 'POST'</find>
-      <find>form-group</find>
-      <find>ajax</find>
-      <find>login</find>
+      <find>println(4)</find>
+      <find>Iterator</find>
+      <find>sessions</find>
       <find>queryuserinfo</find>
-      <find>Message</find>
-      <find>.ajax</find>
-      <find>btn</find>
-      <find>JsonResult</find>
-      <find>i</find>
-      <find>result</find>
-      <find>setCacheManager</find>
-      <find>querybyname</find>
-      <find>getAuthorizationInfo</find>
+      <find>post</find>
+      <find>credentialsMatcher</find>
+      <find>authorizationAttributeSourceAdvisor</find>
+      <find>href</find>
+      <find>login</find>
+      <find>println(6)</find>
+      <find>assertRealmsConfigured</find>
+      <find>println(10)</find>
+      <find>subject</find>
+      <find>permission</find>
       <find>doGetAuthorizationInfo</find>
+      <find>Permission</find>
+      <find>shirFilter</find>
+      <find>shiroFilter</find>
+      <find>myRealm</find>
       <find>doGetAuthenticationInfo</find>
+      <find>securityManager</find>
     </findStrings>
     <replaceStrings>
       <replace>fonts</replace>
@@ -538,45 +171,47 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Keh.java" />
         <option value="$PROJECT_DIR$/src/main/resources/c/starter.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/ClassTableDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/shiro/AuthRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/shiro/CredentialMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shiro/AuthRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/ShoirConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/KehDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/mapper/KehMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shiro/c.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/MyMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shiro/ShiroRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/c.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/shiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/c.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/dao/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Permission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Message.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/JsonResult.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/c.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/c/bower_components/ckeditor/plugins/mathjax/lang/pt-br.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/c/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/c/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="141" />
+    <option name="x" value="-52" />
+    <option name="y" value="226" />
     <option name="width" value="1400" />
-    <option name="height" value="726" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -592,11 +227,6 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -632,6 +262,51 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -697,10 +372,6 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\2\杨华龙1\3阶段\demo\src\main\resources\c" />
-      <recent name="C:\Users\Administrator\Desktop\2\杨华龙1\3阶段\demo\src\main\resources\static\index\js" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example" />
     </key>
@@ -710,6 +381,10 @@
       <recent name="C:\Users\Administrator\Desktop\demo\src\main\java\com\example\entity" />
       <recent name="C:\Users\Administrator\Desktop\2\杨华龙1\3阶段\demo\src\main\resources\c\bower_components\moment\src\lib" />
       <recent name="C:\Users\Administrator\Desktop\2\杨华龙1\3阶段\demo\src\main\resources\c" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\2\杨华龙1\3阶段\demo\src\main\resources\c" />
+      <recent name="C:\Users\Administrator\Desktop\2\杨华龙1\3阶段\demo\src\main\resources\static\index\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -757,7 +432,12 @@
       <workItem from="1578542339192" duration="1392000" />
       <workItem from="1578548144692" duration="2426000" />
       <workItem from="1578550649610" duration="279000" />
-      <workItem from="1578560130335" duration="1425000" />
+      <workItem from="1578560130335" duration="5283000" />
+      <workItem from="1578620869230" duration="7158000" />
+      <workItem from="1578640242186" duration="1825000" />
+      <workItem from="1578642092911" duration="1422000" />
+      <workItem from="1578643535433" duration="299000" />
+      <workItem from="1578643842617" duration="4060000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1578106903845</created>
@@ -808,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578561698763</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <created>1578561888489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578561888489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70065000" />
+    <option name="totallyTimeSpent" value="88687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,10 +511,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-6" y="374" width="1400" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24498567" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49394673" visible="true" weight="0.2619403" />
+      <window_info id="Structure" order="1" sideWeight="0.50605327" side_tool="true" weight="0.24498567" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -837,16 +525,16 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2991914" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.43440235" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.747851" visible="true" weight="0.42991912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8896848" weight="0.3207547" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7328358" visible="true" weight="0.32789558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32944608" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.252149" side_tool="true" visible="true" weight="0.34231806" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32614556" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.26716417" side_tool="true" visible="true" weight="0.32789558" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.495702" weight="0.34231806" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32944608" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32944608" />
@@ -882,191 +570,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java</url>
-          <line>30</line>
+          <line>34</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java</url>
-          <line>62</line>
+          <line>55</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java</url>
-          <line>51</line>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.2/shiro-web-1.2.2.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="46" column="94" selection-start-line="46" selection-start-column="94" selection-end-line="46" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/ShoirConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/AuthRealm.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/CredentialMatcher.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/MyRememberFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/CustomSessionManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/c.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/KehMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/KehDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/build/less/boxes.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="441" column="7" selection-start-line="441" selection-start-column="7" selection-end-line="441" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="105" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/public/js/select2.full.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="736" column="29" selection-start-line="736" selection-start-column="29" selection-end-line="736" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/moment/src/lib/locale/lists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/moment/src/lib/locale/locale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <element signature="e#23#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/moment/src/lib/locale/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/select2/src/js/select2/data/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/moment/src/lib/create/date-from-array.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/JsonResult.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="206">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#675#676#0" expanded="true" />
@@ -1075,177 +614,368 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/MyMatcher.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="438" selection-start-line="438" selection-end-line="438" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.29/tomcat-embed-websocket-9.0.29.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/ProxiedFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/support/SubjectCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#6061#6376#0" expanded="true" />
+            <element signature="e#6375#6376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/filter/FormContentFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.2.0.RELEASE/spring-session-core-2.2.0.RELEASE.jar!/org/springframework/session/web/http/SessionRepositoryFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.2.0.RELEASE/spring-session-core-2.2.0.RELEASE.jar!/org/springframework/session/web/http/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/core/StandardWrapperValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="342" selection-start-line="342" selection-end-line="342" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/core/StandardContextValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/core/StandardHostValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/valves/ErrorReportValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/core/StandardEngineValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/coyote/AbstractProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="671" selection-start-line="671" selection-end-line="671" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/tomcat/util/net/NioEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="396" selection-start-line="396" selection-end-line="396" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/ckeditor/plugins/mathjax/lang/pt-br.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="93" selection-start-column="93" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/JsonResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="50">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/ManagerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/myPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="154">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/Subject.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/SecurityUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="512" column="27" selection-start-line="512" selection-start-column="27" selection-end-line="512" selection-end-column="27" />
+        <state relative-caret-position="388">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="469" column="19" selection-start-line="469" selection-start-column="19" selection-end-line="469" selection-end-column="19" />
+        <state relative-caret-position="171">
+          <caret line="503" selection-start-line="503" selection-end-line="503" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="477" selection-start-line="477" selection-end-line="477" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-          <folding>
-            <element signature="e#2646#2647#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="154">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/cache/MemoryConstrainedCacheManager.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/c/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="137">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/KehController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2717">
-          <caret line="175" column="72" selection-start-line="175" selection-start-column="72" selection-end-line="175" selection-end-column="72" />
+        <state relative-caret-position="146">
+          <caret line="101" column="78" lean-forward="true" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#5720#5721#0" expanded="true" />
-            <element signature="e#5775#5776#0" expanded="true" />
+            <element signature="e#4037#4052#0" expanded="true" />
+            <element signature="e#4425#4441#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c/bower_components/jquery/dist/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176966">
-          <caret line="9326" column="29" selection-start-line="9326" selection-start-column="21" selection-end-line="9326" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/mapper/KehMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="-87">
+          <caret line="63" column="75" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3042#3054#0" expanded="true" />
+            <element signature="e#3297#3328#0" expanded="true" />
+            <element signature="e#3532#3544#0" expanded="true" />
           </folding>
         </state>
       </provider>

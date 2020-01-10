@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/testBoot")
+@RequestMapping("/")
 public class KehController {
     @Autowired
     private KehDao khs;
-    @RequestMapping("getUser/{id}")
+    @RequestMapping("logout/1")
     public String GetKeh(@PathVariable int id){
 
         return khs.Sel(id).toString();

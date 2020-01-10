@@ -38,9 +38,9 @@
     <!--根据ｐｈｏｎｅ查询ｕｓｅｒ信息-->
     <select id="querybyname" resultMap="querybyname">
 
-          select * from `user` u,u_r,role r,r_p,permission p,permission_group pg  WHERE
+          select * from [user] u,u_r,role r,r_p,permission p,permission_group pg  WHERE
 u.uid=u_r.uid and u_r.rid=r.rid and r.rid=r_p.rid and r_p.pid=p.pid and pg.permission_group_id=p.permission_group_id and
-u.username=#{username}
+u.phone=#{phone}
 
     </select>
     <!--根据ｕｉｄ查询ｕｓｅｒｉｎｆｏ信息-->

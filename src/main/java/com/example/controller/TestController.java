@@ -29,7 +29,7 @@ import java.util.Map;
 public class TestController {
     @RequestMapping("1")
     public String c(){
-
+    System.out.println(22);
         return "myPage";
     }
     @Autowired
@@ -40,24 +40,7 @@ public class TestController {
         request.getParameter("username");
             return "login";
     }
-    @RequestMapping("doLogin")
-    @ResponseBody
-    public JsonResult doLogin(
-            boolean isRememberMe,
-            String username,
-            String password) {
 
-        //1.封装用户信息
-        UsernamePasswordToken token=
-                new UsernamePasswordToken(username, password);
-        if(isRememberMe) {
-            token.setRememberMe(true);
-        }
-        //2.提交用户信息
-        Subject subject=SecurityUtils.getSubject();
-        subject.login(token);//token会提交给securityManager
-        return new JsonResult("login ok");
-    }
     @RequestMapping(value = "login", method = RequestMethod.POST)
     public ModelAndView login2(@Param("username") String username, @Param("password") String password) {
         ModelAndView m = new ModelAndView();
@@ -66,8 +49,10 @@ public class TestController {
         UsernamePasswordToken uToken = new UsernamePasswordToken(username, password);
         //实现记住我
         uToken.setRememberMe(true);
+        JsonResult j = new JsonResult();
         try {
             //进行验证，报错返回首页，不报错到达成功页面。
+            System.out.println(3);
             subject.login(uToken);
 
         } catch (UnknownAccountException e) {
@@ -80,6 +65,8 @@ public class TestController {
             return m;
         }
         //将权限信息保存到session中
+
+        System.out.println(5);
         User user = sd.querybyname(username);
 
         List<Permission> permissions = new ArrayList<Permission>();
@@ -101,16 +88,28 @@ public class TestController {
                 map.put(name, pList);
             }
         }
+        System.out.println(6);
 //       保存到shiro的session中一些信息
         Session session = subject.getSession();
 //        保存userinfo的基本信息
         int uid = user.getUid();
         UserInfo userInfo = sd.queryuserinfo(uid);
-        //保存user信息
-        session.setAttribute("user", user);
-//shiro权限验证成功后跳转的界面
-        m.setViewName("index");
+        List<Role> roles = user.getRoles();
+        Role role = roles.get(0);
+        String rolename = role.getRname();
+        session.setAttribute("rolename", rolename);
+        //创建session并保存权限的左导航内容
+        session.setAttribute("userinfo", userInfo);
+        session.setAttribute("maps", map);
+//        保存用户的基本信息
+        m.setViewName("/index");
         return m;
     }
+    @RequestMapping("/index")
+    public String toindex() {
+
+        return "myPage";
+    }
+
 
 }

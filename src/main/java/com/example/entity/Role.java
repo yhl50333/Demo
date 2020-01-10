@@ -9,8 +9,8 @@ import java.util.Set;
 @Getter
 @Setter
 public class Role implements Serializable {
-    private Long id;
-    private String name;
+    private Long rid;
+    private String rname;
     private Set<Permission> permissions = new HashSet<>();
     private Set<User> users=new HashSet<>();
 

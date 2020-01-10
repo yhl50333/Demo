@@ -93,7 +93,7 @@
         $.post(url,params,function(result){
             if(result.state==1){
                 //跳转到indexUI对应的页面
-                location.href="doIndexUI.do?t="+Math.random();
+                location.href="loginUI?t="+Math.random();;
             }else{
                 $(".login-box-msg").html(result.message);
             }
